@@ -1,0 +1,45 @@
+
+// FOOD OFFER SECTION
+.food-offer {
+  height: 600px;
+  width: 100%;
+  background-image: url('../images/offer.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-title {
+    font-size: 50px;
+    color: $white-color;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    transition: 0.5s ease;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  &-p {
+    color: $white-color;
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 20px;
+  }
+
+  &-btn {
+    display: inline-block;
+    background-color: rgba($color: #fff, $alpha: 0.9);
+    padding: 10px 20px;
+    color: $primary-color;
+    border-radius: 27px;
+    text-decoration: none !important;
+    transition: 0.5s ease;
+ 
+    &:hover {
+      background-color: $primary-color;
+      color: $white-color;
+    }
+  }
+}

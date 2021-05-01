@@ -1,0 +1,60 @@
+@import "../Sass/Base/global";
+@import "../Sass/Utilities/variables";
+@import "../Sass/Utilities/utils.scss";
+@import "../Sass/Layouts/food-header";
+@import "../Sass/Layouts/about";
+@import "../Sass/Layouts/food-offer";
+@import "../Sass/Layouts/menu";
+@import "../Sass/Layouts/testimonial";
+@import "../Sass/Layouts/footer";
+
+// media Queries
+@media (max-width: 765px) {
+  .about-us {
+    height: 900px;
+    padding: 20px 0px;
+  }
+
+  .food-menu {
+    height: 1500px;
+  }
+
+  .food_header {
+    height: 500px;
+  }
+
+  .about-img {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .about-container{
+    text-align: center;
+  }
+
+  .testimonials-container {
+    width: 480px;
+  }
+
+  .footer {
+   height: 750px;
+
+   &-container{
+    margin: 40px 0px;
+    text-align: center;
+    }
+  }
+
+  .social-icons,
+  .payment-icons {
+    text-align: center;
+    justify-content: center;
+    }
+
+  .food-container {
+    margin-top: 80px;
+    }
+}

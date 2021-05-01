@@ -1,0 +1,38 @@
+
+// FOOD MENU SECTION
+.food-menu {
+  width: 100%;
+  height: 600px;
+  padding: 70px 0px;
+
+  h2 {
+    font-family: 'Merienda', cursive;
+    transition: 0.5s ease;
+
+    &:hover{
+      color: $primary-color;
+    }
+  }
+}
+
+.menu-heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: $light-gray;
+  text-transform: uppercase;
+}
+
+.menu {
+  list-style-type: none;
+  line-height: 4rem;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: $light-gray;
+  }
+  &-price {
+    color: $primary-color;
+  }
+}

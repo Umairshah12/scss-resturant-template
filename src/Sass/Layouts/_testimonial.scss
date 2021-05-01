@@ -1,0 +1,50 @@
+
+// TESTIMONIALS
+.testimonials {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/testimonial.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-text {
+    line-height: 2rem;
+    letter-spacing: 2px;
+  }
+
+  &-user {
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Merienda', cursive;
+    transition: 0.5s ease;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  h2 {
+    font-size: 50px;
+    color: $white-color;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    transition: 0.5s ease;
+    margin-bottom: 30px;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.testimonials-container {
+  width: 700px;
+  background-color: rgba($color: #fff, $alpha: 0.5);
+  padding: 60px 40px;
+  border-radius: 4px;
+}

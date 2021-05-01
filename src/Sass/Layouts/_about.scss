@@ -1,0 +1,70 @@
+
+// ABOUT US SECTION
+.about-us {
+  width: 100%;
+  height: 600px;
+  padding: 70px 0px;
+
+  h2 {
+    font-family: 'Merienda', cursive;
+    transition: 0.5s ease;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.about-subtitle {
+  color: $primary-color;
+}
+
+.about-p {
+  line-height: 2rem;
+  color: $light-gray;
+}
+
+figure {
+  position: relative;
+  width: 310px;
+  height: 310px;
+  box-shadow: 5px 5px 5px grey;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .under-about-img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 40px;
+    left: -40px;
+    background-color: $primary-color;
+  }
+}
+
+.food-icon {
+  background-color: $primary-color;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: $white-color;
+  transition: 0.5s ease;
+
+  &:hover{
+    background-color: rgba($color: #62c47c, $alpha: 0.5);
+  }
+
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  }
+}

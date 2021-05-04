@@ -45,7 +45,11 @@ video {
   ul {
     list-style-type: none;
     display: flex;
-    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
     
     a {
       text-transform: uppercase;

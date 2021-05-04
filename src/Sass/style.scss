@@ -9,20 +9,11 @@
 @import "../Sass/Layouts/footer";
 
 // media Queries
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .about-us {
-    height: 900px;
-    padding: 20px 0px;
+    height: 100%;
   }
-
-  .food-menu {
-    height: 1500px;
-  }
-
-  .food_header {
-    height: 500px;
-  }
-
+  
   .about-img {
     flex-direction: column;
     justify-content: center;
@@ -31,16 +22,25 @@
     margin-bottom: 50px;
   }
 
-  .about-container{
+  .about-container {
     text-align: center;
   }
 
-  .testimonials-container {
-    width: 480px;
+  .food-menu {
+    height: 100%;
+  }
+
+  .testimonials {
+    height: 100%;
+
+    &-container {
+      width: 400px;
+      margin-bottom: 70px;
+      }
   }
 
   .footer {
-   height: 750px;
+   height: 100%;
 
    &-container{
     margin: 40px 0px;
@@ -52,9 +52,65 @@
   .payment-icons {
     text-align: center;
     justify-content: center;
-    }
+  }
 
   .food-container {
     margin-top: 80px;
     }
+}
+
+@media (max-width:320px){
+  .overlay-header{
+  height: 100%;
+  }
+  .food-header{
+    height: 800px;
+  }
+  
+  .about-us {
+    height: 100%;
+  }
+
+  .food_heading{
+    font-size: 54px;
+    margin-top: 30px;
+  }
+
+  .navbar {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+  } 
+
+  figure {
+  width: 240px;
+
+  .under-about-img {
+     left:-20px
+     }
+  }
+
+  .footer-container {
+    margin: 20px 0px;
+  }
+
+  .testimonials-container {
+      width: 380px;
+  }
+
+  .testimonials h2{
+    font-size: 40px;
+  }
+
+  .food-icon-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 20px;
+    grid-gap: 1rem;
+  }
 }

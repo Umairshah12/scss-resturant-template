@@ -5,6 +5,7 @@
   height: 600px;
   padding: 70px 0px;
 
+
   h2 {
     font-family: 'Merienda', cursive;
     transition: 0.5s ease;
@@ -46,6 +47,13 @@ figure {
   }
 }
 
+.food-icon-container {
+  text-align: center;
+  display: flex;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
 .food-icon {
   background-color: $primary-color;
   height: 100px;
@@ -67,4 +75,5 @@ figure {
     align-items: center;
     font-size: 40px;
   }
+
 }
